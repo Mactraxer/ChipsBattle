@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2371491754090794634
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5618286869559143841, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 925c71dd26efdd44fbad727a3bee81bb, type: 2}
+    - target: {fileID: 7876824255255210378, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerChip
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9029926927497270656, guid: da449e0062a357a4d9710df4e41ba632,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: da449e0062a357a4d9710df4e41ba632, type: 3}
+--- !u!114 &5227353777971357443 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7521699393840277897, guid: da449e0062a357a4d9710df4e41ba632,
+    type: 3}
+  m_PrefabInstance: {fileID: 2371491754090794634}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5600545831635871488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3233639a06e2b9341bb92ce5db7183b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5600545831635871488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7876824255255210378, guid: da449e0062a357a4d9710df4e41ba632,
+    type: 3}
+  m_PrefabInstance: {fileID: 2371491754090794634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8755912893739239794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5600545831635871488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9619041bbe163b4d83a00cc1a542786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _kickBehaviour: {fileID: 5227353777971357443}
